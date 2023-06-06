@@ -3,7 +3,7 @@
 #include <bits/stdc++.h>
 
 int findMajorityElement(int arr[], int n) {
-	unordered_map<int, int> count;
+    unordered_map<int, int> count;
     int majorityElement = -1;
     int majorityCount = 0;
 
